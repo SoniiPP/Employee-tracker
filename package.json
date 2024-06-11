@@ -1,16 +1,18 @@
 {
-  "name": "employee-tracker",
+  "name": "db",
   "version": "1.0.0",
-  "description": "As a business owner i want to be able to view and manage the departments, roles, and employees in my company SO THAT I can organize and plan my business",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
+    "console.table": "^0.10.0",
+    "express": "^4.19.2",
+    "figlet": "^1.7.0",
     "inquirer": "^8.2.4",
-    "pg": "^8.11.5"
+    "pg": "^8.12.0"
   }
 }
